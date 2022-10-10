@@ -45,7 +45,9 @@ body{
 .list-group-item:not(.active):focus {
     color: #fff;
 }
-
+#top-navbar{
+    display: none;
+}
 #sidebar-wrapper {
     background-color: var(--sidebar-bg-color);
     height: 100vh;
@@ -100,10 +102,6 @@ body{
 }
 
 @media (min-width: 768px) {
-    #top-navbar {
-        display: none;
-    }
-
     #sidebar-wrapper {
         margin-left: 0;
     }
@@ -116,4 +114,11 @@ body{
     #wrapper.toggled #sidebar-wrapper {
         margin-left: -15rem;
     }
+}
+@media (max-width: 768px) {
+    #top-navbar {
+        display: block;
+    }
+
+    
 }
