@@ -9,7 +9,7 @@
     --brand-color: #F4B51D;
 
 }
-body{
+html{
     scroll-behavior: smooth;
 }
 .primary-text {
