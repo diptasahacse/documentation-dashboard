@@ -77,18 +77,6 @@ body{
 #menu-toggle {
     cursor: pointer;
 }
-
-.list-group-item {
-    border: none;
-    padding: 20px 30px;
-}
-
-.list-group-item.active {
-    background-color: transparent;
-    color: var(--brand-color);
-    font-weight: bold;
-    border: none;
-}
 .sidebar-list-parent{
     height: calc(100vh - 101px);
 }
@@ -97,7 +85,7 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
 }
-
+/* Responsive */
 @media (min-width: 768px) {
     #sidebar-wrapper {
         margin-left: 0;
