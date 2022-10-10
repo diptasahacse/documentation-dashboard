@@ -5,6 +5,9 @@
     --second-bg-color: #c1efde;
     --content-bg-color: #F3F3F9;
     --sidebar-bg-color: #405189;
+    --sidebar-text-color: #d9d9d9;
+    --brand-color: #F4B51D;
+
 }
 
 .primary-text {
@@ -12,7 +15,7 @@
 }
 
 .second-text {
-    color: var(--second-text-color);
+    color: var(--sidebar-text-color);
 }
 
 .primary-bg {
@@ -26,12 +29,16 @@
 .rounded-full {
     border-radius: 100%;
 }
-
+.brand-color{
+    color: var(--brand-color);
+}
 #wrapper {
     overflow-x: hidden;
     background-color: var(--content-bg-color)
 }
-
+.list-group-item:not(.active):hover,.list-group-item:not(.active):focus{
+    color: #fff;
+}
 #sidebar-wrapper {
     background-color: var(--sidebar-bg-color);
     min-height: 100vh;
@@ -70,7 +77,7 @@
 
 .list-group-item.active {
     background-color: transparent;
-    color: var(--main-text-color);
+    color: var(--brand-color);
     font-weight: bold;
     border: none;
 }
